@@ -1,8 +1,8 @@
 <?php
     require "Services/Twilio.php";
     $to = $_POST['From'];
-    $AccountSid = "AC9c9ffe78169960383ddcbd1fac9bbf3d";
-    $AuthToken = "dd7f067bdb806e2a9a5f9c0e35f52046";
+    $AccountSid = "";
+    $AuthToken = "";
     $client = new Services_Twilio($AccountSid, $AuthToken);
     $from = '7076745678';
     $people = array("+19253886379" => "Vansh", "+19259807321" => "Carl");
